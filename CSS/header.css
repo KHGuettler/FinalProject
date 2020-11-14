@@ -3,4 +3,25 @@ header {
     grid-row: 1;
 
     border-bottom-style: ridge;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    width: auto;
+    left: 100px;
+}
+
+#menuElements {
+    position: absolute;
+    right: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 250px;
 }
