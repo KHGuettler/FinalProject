@@ -15,6 +15,7 @@ body {
     grid-row: 2;
 
     height: calc(100vh - 100px);
+    min-height: 650px;
 
     border-bottom-style: groove;
     border-bottom-color: #5d974c;
@@ -53,6 +54,8 @@ body {
 
     border-style: solid;
     border-radius: 50px;
+
+    background-image: linear-gradient(to left, #5d974c, #EFF0EC);
 }
 
 #missonStatement {
