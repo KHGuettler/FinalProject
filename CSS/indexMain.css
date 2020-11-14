@@ -3,7 +3,7 @@ body {
     display: grid;
 
     grid-template-columns: 100%;
-    grid-template-rows: 100px 800px 335px 100px;
+    grid-template-rows: 100px auto calc(100vh - 100px) 100px;
 
     background-color: #EFF0EC;
 
@@ -14,11 +14,12 @@ body {
     grid-column: 1;
     grid-row: 2;
 
+    height: calc(100vh - 100px);
+
     border-bottom-style: groove;
     border-bottom-color: #5d974c;
 
     display: flex;
-
 }
 
 #appQuote {
@@ -47,8 +48,8 @@ body {
 }
 
 #appImg > img {
-    height: 70%;
-    width: 60%;
+    min-height: 600px;
+    min-width: 350px;
 
     border-style: solid;
     border-radius: 50px;
@@ -77,4 +78,26 @@ body {
     grid-row: 3;
 
     border-bottom-style: ridge;
+}
+
+@media only screen and (max-width: 1060px) {
+    #frontPageFirst {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #appQuote {
+        width: 100%;
+        min-height: calc(100vh);
+    }
+
+    #appImg {
+        width: 100%;
+        height: calc(100vh);
+    }
+
+    #missonStatement {
+        width: 100%;
+        height: 300px;
+    }
 }
