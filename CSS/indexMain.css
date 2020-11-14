@@ -94,10 +94,11 @@ body {
     #appImg {
         width: 100%;
         height: calc(100vh);
+        margin: 0;
     }
 
     #missonStatement {
         width: 100%;
-        height: 300px;
+        height: auto;
     }
 }
