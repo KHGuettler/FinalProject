@@ -25,3 +25,34 @@ header {
 
     width: 250px;
 }
+
+
+@media only screen and (max-width: 660px) {
+    header {
+        flex-direction: column;
+    }
+
+    #logo {
+        position: static;
+    }
+
+    #menuElements {
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    header {
+        align-items: center;
+    }
+
+    #menuElements {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+        width: 100%;
+    }
+}

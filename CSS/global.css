@@ -2,8 +2,15 @@
 
 * {
     font-family: "Open Sans";
+
 }
 
 body {
     margin: 0;
+}
+
+@media only screen and (max-width: 250px) {
+    * {
+        word-break: break-all;
+    }
 }
