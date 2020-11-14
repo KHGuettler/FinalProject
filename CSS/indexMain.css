@@ -15,15 +15,16 @@ body {
     grid-row: 2;
 
     height: calc(100vh - 100px);
-    min-height: 650px;
+    min-height: 750px;
 
     border-bottom-style: groove;
     border-bottom-color: #5d974c;
 
     display: flex;
 
-
+    /*
     background-image: linear-gradient(to top, #5d974c, #EFF0EC);
+    */
 }
 
 #appQuote {
@@ -40,6 +41,7 @@ body {
     font-weight: bolder;
     font-size: 30px;
     text-align: right;
+    margin-bottom: 200px;
 }
 
 #appImg {
@@ -83,6 +85,8 @@ body {
     font-weight: bolder;
     font-size: 30px;
     text-align: left;
+
+    margin-top: 200px;
 }
 
 /*endregion*/
@@ -102,18 +106,28 @@ body {
 
     #appQuote {
         width: 100%;
-        min-height: calc(100vh);
+        min-height: calc(100vh - 100px);
     }
 
     #appImg {
         width: 100%;
         height: calc(100vh);
+        min-height: 0;
         margin: 0;
+    }
+
+    #appImg > img {
+        height: 50%;
     }
 
     #missonStatement {
         width: 100%;
         height: auto;
+        margin: 0;
+    }
+
+    #missonStatement > p {
+        margin: 0;
     }
 }
 
@@ -130,5 +144,6 @@ body {
         width: 90%;
         height: 500px;
 
+        margin-bottom: 40px;
     }
 }
