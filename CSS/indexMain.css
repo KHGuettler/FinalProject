@@ -21,6 +21,9 @@ body {
     border-bottom-color: #5d974c;
 
     display: flex;
+
+
+    background-image: linear-gradient(to top, #5d974c, #EFF0EC);
 }
 
 #appQuote {
@@ -44,8 +47,14 @@ body {
     height: 100%;
     width: 30%;
 
-    justify-content: center;
+    flex-direction: column;
+
     align-items: center;
+    justify-content: center;
+}
+
+#introducing {
+    justify-self: flex-end;
 }
 
 #appImg > img {
@@ -55,7 +64,9 @@ body {
     border-style: solid;
     border-radius: 50px;
 
-    background-image: linear-gradient(to left, #5d974c, #EFF0EC);
+    margin-top: 30px;
+
+    background-color: darkgrey;
 }
 
 #missonStatement {
