@@ -5,17 +5,72 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 100px 800px 335px 100px;
 
-    background-color: #edf0e1;
+    background-color: #EFF0EC;
 
 }
 
+/*region First Section*/
 #frontPageFirst {
     grid-column: 1;
     grid-row: 2;
 
     border-bottom-style: groove;
     border-bottom-color: #5d974c;
+
+    display: flex;
+
 }
+
+#appQuote {
+    display: flex;
+    height: 100%;
+    width: 35%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#appQuote > p {
+    width: 80%;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: right;
+}
+
+#appImg {
+    display: flex;
+    height: 100%;
+    width: 30%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#appImg > img {
+    height: 70%;
+    width: 60%;
+
+    border-style: solid;
+    border-radius: 50px;
+}
+
+#missonStatement {
+    display: flex;
+    height: 100%;
+    width: 35%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#missonStatement > p {
+    width: 80%;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+}
+
+/*endregion*/
 
 #frontPageSecond {
     grid-column: 1;
