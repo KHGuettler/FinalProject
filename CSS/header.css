@@ -15,6 +15,14 @@ header {
     left: 100px;
 }
 
+#logo > h1 {
+    color: #181618;
+
+    border-style: inset;
+    border-color: #5d974c;
+    padding: 2px;
+}
+
 #menuElements {
     position: absolute;
     right: 100px;
