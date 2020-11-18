@@ -3,9 +3,9 @@ body {
     display: grid;
 
     grid-template-columns: 100%;
-    grid-template-rows: 100px auto auto 100px;
+    grid-template-rows: 100px auto auto auto 100px;
 
-    background-color: #EEE8DE;
+    background-color:;
 
 }
 
@@ -68,7 +68,7 @@ body {
 
     margin-top: 30px;
 
-    background-color: darkgrey;
+    background-color: #7b904b;
 }
 
 #missonStatement {
@@ -91,11 +91,12 @@ body {
 
 /*endregion*/
 
+/*region Recycling*/
 #frontPageSecond {
     grid-column: 1;
     grid-row: 3;
 
-    height: calc(100vh - 100px);
+    height: calc(100vh);
     min-height: 750px;
 
     display: flex;
@@ -104,6 +105,7 @@ body {
 
     border-bottom-style: ridge;
 }
+
 #recyclingImg {
     width: 35%;
     display: flex;
@@ -131,9 +133,65 @@ body {
     font-size: 50px;
 }
 
+
 #recyclingStat2 {
     margin-left: 100px;
 }
+/*endregion*/
+
+#frontPageThird {
+    grid-column: 1;
+    grid-row: 4;
+
+    height: calc(100vh - 100px);
+    min-height: 750px;
+
+    border-bottom-style: groove;
+    border-bottom-color: #5d974c;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#plasticStat {
+    display: flex;
+
+    height: 80%;
+    width: 60%;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#plasticStat > p {
+    font-size: 50px;
+    width: 75%;
+}
+
+#plasticStat1 {
+    margin-left: 200px;
+}
+
+#plasticStat2 {
+    margin-left: 100px;
+}
+
+#plasticImg {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plasticImg > img {
+    background-color: #75dddd;
+    height: 700px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+
 
 
 @media only screen and (max-width: 1060px) {
@@ -169,7 +227,6 @@ body {
     }
 
     #frontPageSecond {
-        display: ;
         height: auto;
         flex-direction: column;
     }
@@ -195,6 +252,40 @@ body {
         margin-left: 9%;
         word-break: break-word;
     }
+
+
+    #frontPageThird {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #plasticImg {
+        width: 90%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #plasticImg > img {
+        height: 300px;
+    }
+
+    #plasticStat {
+        width: 90%;
+    }
+
+    #plasticStat > p {
+        font-size: 40px;
+    }
+
+    #plasticStat1 {
+        margin-left: 9%;
+        word-break: break-word;
+    }
+
+    #plasticStat2 {
+        margin-left: 15%;
+    }
+
 }
 
 @media only screen and (max-width: 400px) {

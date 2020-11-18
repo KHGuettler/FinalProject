@@ -9,6 +9,13 @@ body {
     margin: 0;
 }
 
+.takeNote {
+    color: white;
+    border-radius: 5px;
+    background-color: #181618;
+}
+
+
 @media only screen and (max-width: 250px) {
     * {
         word-break: break-all;
