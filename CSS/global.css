@@ -15,6 +15,14 @@ body {
     background-color: #181618;
 }
 
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #5d974c;
+}
+
+.underline:hover {
+    text-decoration-color: red;
+}
 
 @media only screen and (max-width: 250px) {
     * {
