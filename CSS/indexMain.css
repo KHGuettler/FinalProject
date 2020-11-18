@@ -39,7 +39,7 @@ body {
 #appQuote > p {
     width: 80%;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 50px;
     text-align: right;
     margin-bottom: 200px;
 }
@@ -83,7 +83,7 @@ body {
 #missonStatement > p {
     width: 80%;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 50px;
     text-align: left;
 
     margin-top: 200px;
