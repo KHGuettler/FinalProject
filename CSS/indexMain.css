@@ -5,7 +5,7 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 100px auto auto auto 100px;
 
-    background-color:;
+    background-color: #EFF0EC;
 
 }
 
@@ -17,15 +17,12 @@ body {
     height: calc(100vh - 100px);
     min-height: 750px;
 
-    border-bottom-style: groove;
-    border-bottom-color: #5d974c;
 
     display: flex;
 
-    /*
-    background-image: linear-gradient(to top, #5d974c, #EFF0EC);
-    */
+    background-color: #5d974c;
 }
+
 
 #appQuote {
     display: flex;
@@ -34,6 +31,7 @@ body {
 
     justify-content: center;
     align-items: center;
+
 }
 
 #appQuote > p {
@@ -64,11 +62,12 @@ body {
     min-width: 350px;
 
     border-style: solid;
+    border-width: 5px;
     border-radius: 50px;
 
     margin-top: 30px;
 
-    background-color: #7b904b;
+    background-color: pink;
 }
 
 #missonStatement {
@@ -96,40 +95,39 @@ body {
     grid-column: 1;
     grid-row: 3;
 
-    height: calc(100vh);
+    height: calc(100vh - 100px);
     min-height: 750px;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    border-bottom-style: ridge;
+
 }
 
 #recyclingImg {
-    width: 35%;
+    width: 50%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background-color: darkgreen;
 }
 
-#recyclingImg > img {
-    background-color: #5d974c;
-    height: 700px;
-    width: 90%;
-    border-radius: 5px;
-}
 
 #recyclingStat {
     display: flex;
 
     height: 80%;
-    width: 65%;
+    width: 50%;
     justify-content: space-around;
+    align-items: center;
     flex-direction: column;
 }
 
 #recyclingStat > p {
+    width: 50%;
     font-size: 50px;
 }
 
@@ -143,11 +141,8 @@ body {
     grid-column: 1;
     grid-row: 4;
 
-    height: calc(100vh - 100px);
+    height: calc(100vh - 200px);
     min-height: 750px;
-
-    border-bottom-style: groove;
-    border-bottom-color: #5d974c;
 
     display: flex;
     justify-content: space-around;
@@ -158,15 +153,15 @@ body {
 #plasticStat {
     display: flex;
 
-    height: 80%;
-    width: 60%;
+    height: 100%;
+    width: 50%;
     justify-content: space-around;
     flex-direction: column;
 }
 
 #plasticStat > p {
     font-size: 50px;
-    width: 75%;
+    width: 50%;
 }
 
 #plasticStat1 {
@@ -178,18 +173,15 @@ body {
 }
 
 #plasticImg {
-    width: 35%;
+    width: 50%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background-color: #75dddd;
 }
 
-#plasticImg > img {
-    background-color: #75dddd;
-    height: 700px;
-    width: 90%;
-    border-radius: 5px;
-}
 
 
 
