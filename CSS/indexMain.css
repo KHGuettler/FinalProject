@@ -53,21 +53,9 @@ body {
     justify-content: center;
 }
 
-#introducing {
-    justify-self: flex-end;
-}
-
 #appImgFirst > img {
-    min-height: 600px;
-    min-width: 350px;
-
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 50px;
-
-    margin-top: 30px;
-
-    background-color: pink;
+    height: 90%;
+    width: auto;
 }
 
 #missonStatement {
@@ -112,7 +100,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: darkgreen;
+    background-color: #006400;
 }
 
 
