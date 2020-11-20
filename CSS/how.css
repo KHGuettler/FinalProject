@@ -55,24 +55,24 @@ body {
 
 /*region POI*/
 #routeFinder {
-    top: 51.5%;
+    top: 30.2%;
     left: 0;
     justify-content: flex-start;
 }
 
 #settings {
-    top: 72.8%;
+    top: 58.6%;
     left: 0;
     justify-content: flex-start;
 }
 
 #trashCan {
-    top: 30.2%;
+    top: 16%;
     right: 0;
 }
 
 #recyclingPoint {
-    top: 51.5%;
+    top: 44.3%;
     right: 0;
 }
 
