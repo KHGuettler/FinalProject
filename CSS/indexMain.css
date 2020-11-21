@@ -51,6 +51,7 @@ body {
 
     align-items: center;
     justify-content: center;
+
 }
 
 #appImgFirst > img {
@@ -100,9 +101,11 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: #006400;
+    background-color: #FFFBCE;
 }
 
+#recyclingImg > img {
+}
 
 #recyclingStat {
     display: flex;
