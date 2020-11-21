@@ -101,7 +101,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: #FFFBCE;
+    background-color: #5d974c;
 }
 
 #recyclingImg > img {
@@ -170,7 +170,12 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: #75dddd;
+    background-color: #5d974c;
+}
+
+#plasticImg > img {
+    height: 90%;
+    width: auto;
 }
 
 
