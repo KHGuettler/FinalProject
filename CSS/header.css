@@ -91,9 +91,10 @@ header {
 }
 
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 700px) {
     header {
         flex-direction: column;
+        height: 130px;
     }
 
     #logo {
@@ -102,13 +103,15 @@ header {
 
     #menuElements {
         position: static;
+        margin-top: -35px;
     }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 270px) {
 
     header {
         align-items: center;
+        height: 200px;
     }
 
     #menuElements {
@@ -118,5 +121,10 @@ header {
         margin: 0;
         height: auto;
         width: 100%;
+    }
+
+    #why {
+        margin-top: -25px;
+        height: auto;
     }
 }

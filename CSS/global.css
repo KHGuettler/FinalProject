@@ -2,7 +2,6 @@
 
 * {
     font-family: "Open Sans";
-
 }
 
 body {
@@ -24,7 +23,7 @@ body {
     text-decoration-color: red;
 }
 
-@media only screen and (max-width: 250px) {
+@media only screen and (max-width: 270px) {
     * {
         word-break: break-all;
     }

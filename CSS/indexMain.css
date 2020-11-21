@@ -30,12 +30,12 @@ body {
     width: 35%;
 
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
 #appQuote > p {
-    width: 80%;
+    width: 90%;
     font-weight: bolder;
     font-size: 50px;
     text-align: right;
@@ -51,12 +51,19 @@ body {
 
     align-items: center;
     justify-content: center;
-
 }
 
 #appImgFirst > img {
+    max-height: 753px;
     height: 90%;
     width: auto;
+}
+
+@media only screen and (max-width: 1500px) {
+    #appImgFirst > img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 #missonStatement {
@@ -69,7 +76,7 @@ body {
 }
 
 #missonStatement > p {
-    width: 80%;
+    width: 90%;
     font-weight: bolder;
     font-size: 50px;
     text-align: left;
@@ -105,12 +112,15 @@ body {
 }
 
 #recyclingImg > img {
+    height: auto;
+    width: 70%;
+
 }
 
 #recyclingStat {
     display: flex;
 
-    height: 80%;
+    height: 100%;
     width: 50%;
     justify-content: space-around;
     align-items: center;
@@ -118,7 +128,7 @@ body {
 }
 
 #recyclingStat > p {
-    width: 50%;
+    width: 70%;
     font-size: 50px;
 }
 
@@ -147,20 +157,21 @@ body {
     height: 100%;
     width: 50%;
     justify-content: space-around;
+    align-items: flex-end;
     flex-direction: column;
 }
 
 #plasticStat > p {
     font-size: 50px;
-    width: 50%;
+    width: 70%;
 }
 
 #plasticStat1 {
-    margin-left: 200px;
+    margin-right: 100px;
 }
 
 #plasticStat2 {
-    margin-left: 100px;
+    margin-right: 20px;
 }
 
 #plasticImg {
@@ -174,18 +185,16 @@ body {
 }
 
 #plasticImg > img {
-    height: 90%;
-    width: auto;
+    height: auto;
+    width: 70%;
 }
-
-
-
 
 
 @media only screen and (max-width: 1060px) {
     #frontPageFirst {
         flex-direction: column;
         height: auto;
+
     }
 
     #appQuote {
@@ -201,6 +210,9 @@ body {
     }
 
     #appImgFirst > img {
+        max-width: 463px;
+        width: 90%;
+        height: auto;
     }
 
     #missonStatement {
@@ -216,24 +228,29 @@ body {
 
     #frontPageSecond {
         height: auto;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        margin-top: 0px;
     }
 
     #recyclingImg {
-        width: 90%;
-        margin-top: 25px;
+        width: 100%;
+        height: 50%;
     }
 
     #recyclingImg > img {
-        height: 300px;
+        width: 50%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     #recyclingStat {
-        width: 90%;
+        width: 100%;
+        height: 50%;
     }
 
     #recyclingStat > p {
-        font-size: 40px;
+        font-size: 45px;
     }
 
     #recyclingStat2 {
@@ -248,35 +265,55 @@ body {
     }
 
     #plasticImg {
-        width: 90%;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        height: 50%;
+        width: auto;
     }
 
     #plasticImg > img {
-        height: 300px;
+        width: 50%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     #plasticStat {
-        width: 90%;
+        height: 50%;
+        width: 100%;
+        align-items: flex-start;
     }
 
     #plasticStat > p {
-        font-size: 40px;
+        font-size: 35px;
+        width: auto;
     }
 
     #plasticStat1 {
-        margin-left: 9%;
-        word-break: break-word;
+        margin-left: 6%;
+        margin-right: 0;
     }
 
     #plasticStat2 {
-        margin-left: 15%;
+        margin-left: 10%;
+        margin-right: 0;
+        hyphens: auto;
     }
 
 }
 
 @media only screen and (max-width: 400px) {
+
+
+
+    #appQuote > p {
+        width: 95%;
+        font-size: 45px;
+    }
+
+    #missonStatement > p {
+        font-size: 45px;
+        width: 95%;
+    }
+
     #appImgFirst {
         width: 100%;
         height: 600px;
@@ -287,8 +324,12 @@ body {
         min-height: 0;
 
         width: 90%;
-        height: 500px;
+    }
 
-        margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 319px) {
+    #frontPageFirst > *, #frontPageSecond #frontPageThird {
+        word-break: break-all;
     }
 }
