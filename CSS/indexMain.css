@@ -108,7 +108,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: #5d974c;
+    background-color: #1b881b;
 }
 
 #recyclingImg > img {
@@ -181,7 +181,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: #5d974c;
+    background-color: darkcyan;
 }
 
 #plasticImg > img {
@@ -229,7 +229,7 @@ body {
     #frontPageSecond {
         height: auto;
         flex-direction: column-reverse;
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     #recyclingImg {
