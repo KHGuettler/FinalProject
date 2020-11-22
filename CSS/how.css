@@ -9,23 +9,27 @@ body {
 
 #howFirst {
     height: calc(100vh - 100px);
+    min-height: 750px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #EFF0EC;
+
+    padding-top: 50px;
+    align-items: flex-start;
+    margin-bottom: 50px;
+
 }
 
 #appContainer {
     height: 100%;
-    width: 90%;
+    width: 100%;
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+
 }
 
 #appDemo {
-    height: 100%;
+    height: 700px;
     width: auto;
 
     display: flex;
@@ -36,13 +40,14 @@ body {
 }
 
 #appDemo > img {
-    height: 90%;
+    height: 100%;
     width: auto;
 }
 
 .lineText {
-    width: 238px;
-    height: 40px;
+    width: 17.8%;
+    height: 5%;
+    font-size: 20px;
 
     position: absolute;
     display: flex;
@@ -55,29 +60,29 @@ body {
 
 /*region POI*/
 #routeFinder {
-    top: 30.2%;
+    top: 28.5%;
     left: 0;
     justify-content: flex-start;
 }
 
 #settings {
-    top: 58.6%;
+    top: 59.9%;
     left: 0;
     justify-content: flex-start;
 }
 
 #trashCan {
-    top: 16%;
+    top: 12.6%;
     right: 0;
 }
 
 #recyclingPoint {
-    top: 44.3%;
+    top: 44.2%;
     right: 0;
 }
 
 #photo {
-    top: 72.8%;
+    top: 75.7%;
     right: 0;
 }
 /*endregion*/
@@ -101,18 +106,20 @@ body {
 }
 
 .howImg {
-    height: 100%;
-    width: 50%;
+    height: calc(100% - 8px);
+    width: calc(50% - 8px);
     background-color: darkgreen;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border-style: inset;
+    border-width: 4px;
+    border-color: #EFF0EC;
 }
 
 .howImg > p {
     font-size: 75px;
-    border-style: inset;
-    padding: 75px;
 }
 
 .howText {
@@ -142,9 +149,58 @@ footer {
     grid-row: auto;
 }
 
-@media only screen and (max-width: 500px) {
-    #appDemo > img {
-        width: 90%;
+
+
+@media only screen and (max-width: 1240px) {
+    #howFirst {
+        min-height: 0;
         height: auto;
+    }
+
+    #appDemo {
+        width: 95%;
+        height: auto;
+    }
+
+    #appDemo > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .lineText {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .howContainer {
+        height: auto;
+        width: 100%;
+    }
+
+    .howContainer:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+    .howContainer:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .howText {
+        width: 100%;
+    }
+
+    .howImg {
+        width: calc(100% - 8px);
+        word-break: break-all;
+    }
+    .howImg > img {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    #howFirst {
+        margin-top: 80px;
     }
 }
