@@ -206,7 +206,7 @@ body {
     #appImgFirst {
         width: 100%;
         height: calc(100vh);
-        min-height: 1700px;
+        min-height: 1000px;
         margin: 0;
     }
 
