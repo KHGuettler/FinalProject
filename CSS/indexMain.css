@@ -195,7 +195,16 @@ body {
     #frontPageFirst {
         flex-direction: column;
         height: auto;
+    }
 
+    #frontPageSecond {
+        height: auto;
+        min-height: 1000px;
+    }
+
+    #frontPageThird {
+        height: auto;
+        min-height: 1000px;
     }
 
     #appQuote {
@@ -303,6 +312,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    #frontPageFirst {
+        margin-bottom: 50px;
+    }
 
     #appQuote > p {
         width: 95%;
