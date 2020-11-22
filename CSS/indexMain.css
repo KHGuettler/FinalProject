@@ -214,6 +214,7 @@ body {
         max-width: 463px;
         width: 90%;
         height: auto;
+        min-height: 0;
     }
 
     #missonStatement {
@@ -302,8 +303,6 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
-
-
 
     #appQuote > p {
         width: 95%;
