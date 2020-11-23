@@ -12,6 +12,8 @@ header {
     position: sticky;
 
     z-index: 10;
+
+    box-shadow: 0px 2px 2px black;
 }
 
 #logo {
