@@ -90,6 +90,9 @@ header {
     color: black;
 }
 
+#menuElements > div > a:hover {
+    color: #EFF0EC;
+}
 
 @media only screen and (max-width: 700px) {
     header {
