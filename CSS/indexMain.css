@@ -20,7 +20,7 @@ body {
 
     display: flex;
 
-    background-color: #5d974c;
+    background-color: #24652f;
 }
 
 
@@ -31,8 +31,6 @@ body {
 
     justify-content: center;
     align-items: flex-start;
-
-
 }
 
 #appQuote > p {
@@ -41,6 +39,7 @@ body {
     font-size: 50px;
     text-align: right;
     margin-bottom: 200px;
+    color: white;
 }
 
 #appImgFirst {
@@ -83,6 +82,7 @@ body {
     text-align: left;
 
     margin-top: 200px;
+    color: white;
 }
 
 /*endregion*/

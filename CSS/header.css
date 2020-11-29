@@ -1,3 +1,5 @@
+/* Øk Font Size på menu-elements */
+
 header {
     grid-column: 1;
     grid-row: 1;
@@ -86,13 +88,15 @@ header {
     width: 250px;
 }
 
+
 #menuElements > div > a {
     color: black;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 #menuElements > div > a:hover {
     color: #EFF0EC;
-    box-shadow: 2px 2px 2px #EFF0EC;
 }
 
 @media only screen and (max-width: 700px) {
