@@ -5,6 +5,72 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 100px auto auto auto 100px;
 
+    background-color: #5d974c;
+
+}
+
+#web {
+    grid-column: 1;
+    grid-row: 2;
+
+    height: 600px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#webSources {
+    width: 80%;
+    height: 80%;
+
     background-color: #EFF0EC;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#webSources > h2 {
+    font-size: 50px;
+}
+
+#webSources > ul {
+    font-size: 30px;
+    list-style: square;
+}
+
+#img {
+    grid-column: 1;
+    grid-row: 3;
+
+    height: 600px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgAttributions {
+    width: 80%;
+    height: 80%;
+
+    background-color: #EFF0EC;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#imgAttributions > h2 {
+    font-size: 50px;
+}
+
+#imgAttributions > ul {
+    font-size: 30px;
+    list-style: square;
 }
