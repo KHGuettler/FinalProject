@@ -58,8 +58,8 @@ body {
     align-items: center;
     justify-content: flex-end;
 
-
 }
+
 .lineText:hover {
     color: darkgreen;
 }
@@ -94,7 +94,7 @@ body {
 /*endregion*/
 
 .howContainer {
-    height: calc(50vh - 100px);
+    height: calc(50vh);
     min-height: 400px;
     width: 90%;
     margin-left: 5%;
@@ -123,8 +123,6 @@ body {
 }
 
 .howContainer > h2 {
-    margin-bottom: -25px;
-    margin-top: 15px;
     font-size: 50px;
 }
 
@@ -166,7 +164,7 @@ footer {
     }
 
     .lineText {
-        font-size: 2.2vw;
+        font-size: 2.1vw;
     }
 }
 
