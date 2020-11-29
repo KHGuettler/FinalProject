@@ -1,0 +1,10 @@
+
+body {
+    display: grid;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 100px auto auto auto 100px;
+
+    background-color: #EFF0EC;
+
+}
