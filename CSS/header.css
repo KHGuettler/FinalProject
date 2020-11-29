@@ -92,6 +92,7 @@ header {
 
 #menuElements > div > a:hover {
     color: #EFF0EC;
+    box-shadow: 2px 2px 2px #EFF0EC;
 }
 
 @media only screen and (max-width: 700px) {
