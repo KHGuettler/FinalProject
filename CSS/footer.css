@@ -1,6 +1,21 @@
 footer {
     grid-column: 1;
     background-color: #5d974c;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.sources {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+
+    margin-left: 25px;
+
+    background-color: darkgreen;
+    padding: 10px;
 }
 
 .goToTop {
@@ -10,8 +25,8 @@ footer {
 
     border-radius: 25px;
     position: fixed;
-    right: 100px;
-    bottom: 125px;
+    bottom: 25px;
+    right: 25px;
 
     box-shadow: 2px 2px 2px black;
 
@@ -23,9 +38,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: bottom 0.15s, box-shadow 0.15s;
 }
 
 .goToTop:hover {
-    bottom: 127px;
+    bottom: 27px;
     box-shadow: 2px 4px 2px black;
 }
+
