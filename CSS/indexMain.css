@@ -38,7 +38,7 @@ body {
     font-weight: bolder;
     font-size: 50px;
     text-align: right;
-    margin-bottom: 200px;
+    margin-top: 150px;
     color: white;
 }
 
@@ -81,7 +81,7 @@ body {
     font-size: 50px;
     text-align: left;
 
-    margin-top: 200px;
+    margin-top: 150px;
     color: white;
 }
 
@@ -204,32 +204,43 @@ body {
 
     #frontPageThird {
         height: auto;
-        min-height: 1000px;
     }
 
     #appQuote {
         width: 100%;
-        min-height: calc(50vh - 100px);
+        height: calc(100vh - 100px);
+
+        align-items: center;
+
+        margin: 0;
+    }
+
+    #appQuote > p {
+        width: 70%;
+        margin: 0;
     }
 
     #appImgFirst {
         width: 100%;
-        height: calc(100vh);
-        min-height: 1000px;
-        margin: 0;
+        height: calc(100vh - 100px);
+
+
+        background-color: #EFF0EC;
     }
 
     #appImgFirst > img {
         max-width: 463px;
-        width: 80%;
-        height: auto;
-        min-height: 0;
+        width: auto;
+        height: 90%;
+
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     #missonStatement {
         width: 100%;
         height: auto;
-        margin: 0;
+        margin-top: 100px;
         margin-bottom: 100px;
     }
 
@@ -317,8 +328,8 @@ body {
     }
 
     #appQuote > p {
-        width: 95%;
         font-size: 45px;
+        width: 90%;
     }
 
     #missonStatement > p {
@@ -328,14 +339,15 @@ body {
 
     #appImgFirst {
         width: 100%;
-        height: auto;
+        height: calc(100vh - 150px);
     }
 
     #appImgFirst > img {
         min-width: 0;
         min-height: 0;
 
-        width: 90%;
+        height: auto;
+        max-width: 250px;
     }
 
 }
@@ -343,5 +355,19 @@ body {
 @media only screen and (max-width: 319px) {
     #frontPageFirst > *, #frontPageSecond #frontPageThird {
         word-break: break-all;
+    }
+
+    #appImgFirst > img {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 219px) {
+    #frontPageFirst > *, #frontPageSecond #frontPageThird {
+        word-break: break-all;
+    }
+
+    #appImgFirst > img {
+        max-width: 100px;
     }
 }
