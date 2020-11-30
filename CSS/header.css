@@ -119,20 +119,32 @@ header {
 
     header {
         align-items: center;
-        height: 200px;
+
     }
 
     #menuElements {
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-        margin: 0;
-        height: auto;
-        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        height: 50%;
+    }
+
+    #menuElements > div > a {
+        font-size: 20px;
+
     }
 
     #why {
-        margin-top: -25px;
-        height: auto;
+        padding-top: 0;
+        margin-top: -15px;
+        background-color: #EFF0EC;
     }
+
+    #how {
+        margin-top: -55px;
+    }
+
+
+
 }
