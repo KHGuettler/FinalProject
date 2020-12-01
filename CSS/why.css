@@ -1,0 +1,263 @@
+.grid-container{
+	display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto;	
+}
+.grid-container h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+body {
+    display: grid;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 100px auto auto auto 100px;
+
+    background-color: #EFF0EC;
+
+}
+
+.factbox {
+	display: grid; 
+	grid-column: 1;
+	grid-row: auto;
+	background-color: white;
+	width: 80%;
+	margin-left: 10%;
+	height: auto;
+	margin-bottom: 20px;
+	border-style: solid;
+	border-color: silver;
+}
+.factbox img {
+	position:relative;
+	height: 100px;
+	width: 160px;
+	margin: 12px;
+	
+}
+
+.factbox h1 {
+	font-size: 40px;
+	width: 100%;
+	text-align: left;
+	
+}
+.imageholder {
+	position: relative;
+	width: 20%;
+	height: auto;
+	
+	
+}
+.headerholder {
+	position: relative;
+	margin-left: 20%;
+	margin-top: -110px;
+	width: 80%;
+	height: auto;
+	
+	
+}
+.factbox li {
+	font-size: 30px;
+	margin-left: 10%;
+	width: 85%;
+	
+}
+.emptyspace {
+	width: 100%;
+	height: 150px;
+}
+@media only screen and (max-width: 1100px){
+	.factbox {
+		margin-left: 0;
+		width: 96vw;
+		
+	}
+	.factbox h2 {
+		font-size: 35px;
+		
+	}
+	
+	.headerholder {
+		margin-left: 200px;
+		width: 65%;
+	}
+	
+}
+@media only screen and (max-width: 830px) {
+	.headerholder {
+		width: 80%;
+		margin-left: 20%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.headerholder  {
+		margin-left: 35%;
+		width: 65%;
+	}
+}
+@media only screen and (max-width: 530px) {
+	.headerholder  {
+		margin-top: 10px;
+		width: 80%;
+		margin-left: 50px;
+		
+	}
+	.factbox li {
+		margin-left: 0;
+	}
+}
+
+body {
+    display: grid;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 100px auto auto auto 100px;
+
+    background-color: #EFF0EC;
+
+}
+
+/*region First Section*/
+#frontPageFirst {
+    grid-column: 1;
+    grid-row: 2;
+color: white;
+    height: calc(100vh - 100px);
+    min-height: 750px;
+	
+    display: flex;
+    background-color:  #24652f;;
+}
+
+
+#appQuote {
+    display: flex;
+    height: 100%;
+    width: 45%;
+	
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+#appQuote > p {
+    width: 100%;
+    font-weight: bolder;
+	margin-left: calc(20px + 5%);
+    font-size: 50px;
+    text-align: right;
+    margin-bottom: 200px;
+}
+
+#appImgFirst {
+    display: flex;
+    height: 100%;
+    width: 20%;
+	margin-left: 20%;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#appImgFirst > img {
+    max-height: 753px;
+    height: 90%;
+    width: auto;
+	
+}
+
+@media only screen and (max-width: 1500px) {
+    #appImgFirst > img {
+       width: auto;
+	   
+        height: auto;
+    }
+}
+
+
+/*endregion*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    #frontPageFirst {
+        flex-direction: column;
+        height: auto;
+    }
+
+  
+
+    #appQuote {
+        width: 95%;
+        height: 400px;
+		margin-right: 5%;
+    }
+
+    #appImgFirst {
+        width: 100%;
+        height: calc(100vh);
+        min-height: 700px;
+        margin: 0;
+    }
+
+    #appImgFirst > img {
+        max-width: 563px;
+        width: 75%;
+		min-width: 25%;
+		margin-top: 100px;
+        height: auto;
+        min-height: 0;
+    }
+
+ 
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    #frontPageFirst {
+        margin-bottom: 50px;
+    }
+
+    #appQuote > p {
+        width: 95%;
+        font-size: 45px;
+		
+    }
+
+    #missonStatement > p {
+        font-size: 45px;
+        width: 95%;
+    }
+
+    #appImgFirst {
+        width: 100%;
+        height: auto;
+    }
+
+    #appImgFirst > img {
+        min-width: 0;
+        min-height: 0;
+		
+        width: 90%;
+    }
+
+}
+
