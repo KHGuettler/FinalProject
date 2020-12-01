@@ -14,7 +14,7 @@ header {
 
     z-index: 10;
 
-    box-shadow: 0px 2px 2px black;
+    box-shadow: 0 2px 2px black;
 }
 
 #logo {
@@ -30,7 +30,6 @@ header {
     border-style: inset;
     border-color: white;
 
-    padding: 2px;
     padding-left: 4px;
     padding-right: 4px;
 }
