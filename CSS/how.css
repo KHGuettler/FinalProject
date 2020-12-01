@@ -163,10 +163,17 @@ body {
     border-width: 4px;
 }
 
-footer {
-    grid-row: auto;
+#recyclingPointText > div > div > p {
+    width: 60%;
 }
 
+#garbageCanText > div > div > p {
+    width: 60%;
+}
+
+#settingsText {
+    margin-bottom: 50px;
+}
 
 
 @media only screen and (max-width: 1240px) {
