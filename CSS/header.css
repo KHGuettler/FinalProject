@@ -75,6 +75,10 @@ header {
     transition: color 1.4s;
     color: white;
 }
+
+#screenReader {
+    opacity: 0;
+}
 /*endregion*/
 
 #menuElements {
