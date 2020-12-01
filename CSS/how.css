@@ -227,11 +227,6 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
-
-    body {
-        grid-template-rows: 150px auto auto auto auto 100px;
-    }
-
    .howContainer {
        grid-template-rows: 150px auto;
        margin-top: -50px;
