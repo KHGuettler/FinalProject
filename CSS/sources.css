@@ -24,7 +24,7 @@ body {
 
 #webSources {
     width: 80%;
-    height: 80%;
+    height: auto;
 
     background-color: #EFF0EC;
 
@@ -69,7 +69,7 @@ body {
 
 #imgAttributions {
     width: 80%;
-    height: 80%;
+    height: auto;
 
     background-color: #EFF0EC;
 
