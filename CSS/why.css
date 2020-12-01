@@ -70,6 +70,10 @@ body {
 	height: 100px;
 }
 
+footer {
+    grid-row: 4;
+}
+
 @media only screen and (max-width: 1100px){
 	.factbox {
 		margin-left: 2vw;
@@ -111,21 +115,11 @@ body {
 	}
 }
 
-body {
-    display: grid;
-
-    grid-template-columns: 100%;
-    grid-template-rows: 100px auto auto auto 100px;
-
-    background-color: #EFF0EC;
-
-}
-
 /*region First Section*/
 #frontPageFirst {
     grid-column: 1;
     grid-row: 2;
-color: white;
+    color: white;
     height: calc(100vh - 100px);
     min-height: 750px;
 	
