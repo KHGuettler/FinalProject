@@ -57,6 +57,12 @@ body {
     max-height: 753px;
     height: 90%;
     width: auto;
+
+    transition: margin-bottom 0.3s;
+}
+
+#appImgFirst > img:hover {
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 1500px) {
