@@ -18,23 +18,24 @@ body {
 }
 
 .factbox {
-	display: grid; 
+	display: grid;
 	grid-column: 1;
 	grid-row: auto;
-	background-color: white;
-	width: 80%;
-	margin-left: 10%;
-	height: auto;
-	margin-bottom: 20px;
-	border-style: solid;
-	border-color: silver;
+
+	width: calc(80% - 8px);
+    margin-left: 10%;
+    height: auto;
+
+    background-color: white;
+
+    border-style: inset;
+    border-color: white;
+    border-width: 4px;
 }
 .factbox img {
-	position:relative;
 	height: 100px;
 	width: 160px;
 	margin: 12px;
-	
 }
 
 .factbox h1 {
@@ -43,20 +44,18 @@ body {
 	text-align: left;
 	
 }
+
 .imageholder {
-	position: relative;
 	width: 20%;
 	height: auto;
-	
-	
 }
+
 .headerholder {
 	position: relative;
 	margin-left: 20%;
 	margin-top: -110px;
 	width: 80%;
 	height: auto;
-	
 	
 }
 .factbox li {
@@ -70,19 +69,18 @@ body {
 	height: 100px;
 }
 
-footer {
-    grid-row: 4;
+#lastFactBox {
+    margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 1100px){
 	.factbox {
-		margin-left: 2vw;
-		width: 96vw;
-		
+		margin-left: auto;
+        margin-right: auto;
+		width: calc(96vw - 8px);
 	}
 	.factbox h2 {
 		font-size: 35px;
-		
 	}
 	
 	.headerholder {
@@ -116,7 +114,7 @@ footer {
 }
 
 /*region First Section*/
-#frontPageFirst {
+#howFirst {
     grid-column: 1;
     grid-row: 2;
     color: white;
@@ -128,7 +126,7 @@ footer {
 }
 
 
-#appQuote {
+#davidQuote {
     display: flex;
     height: 100%;
     width: 45%;
@@ -139,16 +137,16 @@ footer {
 
 }
 
-#appQuote > p {
+#davidQuote > p {
     width: 100%;
     font-weight: bolder;
 	margin-left: calc(20px + 5%);
     font-size: 50px;
     text-align: right;
-    margin-bottom: 200px;
+    margin-top: 150px;
 }
 
-#appImgFirst {
+#globeImg {
     display: flex;
     height: 100%;
     width: 20%;
@@ -159,7 +157,7 @@ footer {
     justify-content: center;
 }
 
-#appImgFirst > img {
+#globeImg > img {
     max-height: 753px;
     height: 90%;
     width: auto;
@@ -167,7 +165,7 @@ footer {
 }
 
 @media only screen and (max-width: 1500px) {
-    #appImgFirst > img {
+    #globeImg > img {
        width: auto;
 	   
         height: auto;
@@ -190,27 +188,27 @@ footer {
 
 
 @media only screen and (max-width: 1200px) {
-    #frontPageFirst {
+    #howFirst {
         flex-direction: column;
         height: auto;
     }
 
   
 
-    #appQuote {
+    #davidQuote {
         width: 95%;
         height: 400px;
 		margin-right: 5%;
     }
 
-    #appImgFirst {
+    #globeImg {
         width: 100%;
         height: calc(100vh);
         min-height: 700px;
         margin: 0;
     }
 
-    #appImgFirst > img {
+    #globeImg > img {
         max-width: 563px;
         width: 75%;
 		min-width: 25%;
@@ -226,11 +224,11 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    #frontPageFirst {
+    #howFirst {
         margin-bottom: 50px;
     }
 
-    #appQuote > p {
+    #davidQuote > p {
         width: 95%;
         font-size: 45px;
 		
@@ -241,12 +239,12 @@ footer {
         width: 95%;
     }
 
-    #appImgFirst {
+    #globeImg {
         width: 100%;
         height: auto;
     }
 
-    #appImgFirst > img {
+    #globeImg > img {
         min-width: 0;
         min-height: 0;
 		
