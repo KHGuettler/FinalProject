@@ -32,6 +32,9 @@ body {
     border-color: white;
     border-width: 4px;
 }
+.factbox li a {
+	font-size: 22px;
+}
 .factbox img {
 	height: 100px;
 	width: 160px;
