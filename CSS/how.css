@@ -2,12 +2,12 @@ body {
     display: grid;
 
     grid-template-columns: 100%;
-    grid-template-rows: 100px auto auto auto auto 100px;
+    grid-template-rows: 100px auto auto auto auto auto auto 100px;
 
     background-color: #5d974c;
 }
 
-#howFirst {
+#appDemoSection {
     height: calc(100vh - 100px);
     min-height: 750px;
     display: flex;
@@ -69,29 +69,29 @@ body {
 
 /*region POI*/
 #routeFinder {
-    top: 28.1%;
+    top: 28.4%;
     left: 0;
     justify-content: flex-start;
 }
 
 #settings {
-    top: 59.5%;
+    top: 59.9%;
     left: 0;
     justify-content: flex-start;
 }
 
-#trashCan {
-    top: 12.3%;
+#garbageCan {
+    top: 12.5%;
     right: 0;
 }
 
 #recyclingPoint {
-    top: 44%;
+    top: 44.1%;
     right: 0;
 }
 
 #photo {
-    top: 75.35%;
+    top: 75.6%;
     right: 0;
 }
 /*endregion*/
@@ -121,7 +121,6 @@ body {
     align-items: center;
 
     padding-bottom: 25px;
-
 }
 
 .howText {
@@ -157,12 +156,12 @@ body {
     display: flex;
     text-align: center;
     align-items: center;
+    justify-content: center;
 
     border-style: inset;
     border-color: #1b881b;
     border-width: 4px;
 }
-
 
 footer {
     grid-row: auto;
@@ -171,7 +170,7 @@ footer {
 
 
 @media only screen and (max-width: 1240px) {
-    #howFirst {
+    #appDemoSection {
         height: auto;
         min-height: 0;
     }
@@ -234,7 +233,7 @@ footer {
 }
 
 @media only screen and (max-width: 270px) {
-    #howFirst {
+    #appDemoSection {
         margin-top: 80px;
     }
 }
