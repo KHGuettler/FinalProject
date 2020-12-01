@@ -69,29 +69,29 @@ body {
 
 /*region POI*/
 #routeFinder {
-    top: 28.4%;
+    top: 28.5%;
     left: 0;
     justify-content: flex-start;
 }
 
 #settings {
-    top: 59.9%;
+    top: 60%;
     left: 0;
     justify-content: flex-start;
 }
 
 #garbageCan {
-    top: 12.5%;
+    top: 12.7%;
     right: 0;
 }
 
 #recyclingPoint {
-    top: 44.1%;
+    top: 44.3%;
     right: 0;
 }
 
 #photo {
-    top: 75.6%;
+    top: 75.7%;
     right: 0;
 }
 /*endregion*/
