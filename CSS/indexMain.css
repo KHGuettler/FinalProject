@@ -121,7 +121,7 @@ body {
 #recyclingStat {
     display: flex;
 
-    height: 100%;
+    height: 70%;
     width: 50%;
     justify-content: space-around;
     align-items: center;
@@ -155,7 +155,7 @@ body {
 #plasticStat {
     display: flex;
 
-    height: 100%;
+    height: 70%;
     width: 50%;
     justify-content: space-around;
     align-items: flex-end;
