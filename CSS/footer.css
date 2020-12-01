@@ -2,6 +2,7 @@ footer {
     grid-column: 1;
     background-color: #5d974c;
 
+
     display: flex;
     justify-content: left;
     align-items: center;

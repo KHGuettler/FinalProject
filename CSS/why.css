@@ -1,21 +1,20 @@
-.grid-container{
-	display: grid;
-grid-template-columns: auto;
-grid-template-rows: auto;	
-}
-.grid-container h1 {
-	text-align: center;
-	font-size: 50px;
-}
-
 body {
     display: grid;
 
     grid-template-columns: 100%;
-    grid-template-rows: 100px auto auto auto 100px;
+    grid-template-rows: 100px auto auto 100px;
 
     background-color: #EFF0EC;
+}
 
+.grid-container{
+	display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.grid-container h1 {
+	text-align: center;
+	font-size: 50px;
 }
 
 .factbox {
@@ -68,11 +67,12 @@ body {
 }
 .emptyspace {
 	width: 100%;
-	height: 150px;
+	height: 100px;
 }
+
 @media only screen and (max-width: 1100px){
 	.factbox {
-		margin-left: 0;
+		margin-left: 2vw;
 		width: 96vw;
 		
 	}
