@@ -96,3 +96,22 @@ body {
 #imgAttributions > ul > li > a:hover {
     color: #24652f;
 }
+
+@media only screen and (max-width: 700px){
+    #webSources > h2 {
+        font-size: 40px;
+    }
+
+    #webSources > ul {
+        font-size: 25px;
+    }
+
+    #imgAttributions > h2 {
+        font-size: 40px;
+    }
+
+    #imgAttributions > ul {
+        font-size: 25px;
+    }
+
+}
