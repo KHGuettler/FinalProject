@@ -12,8 +12,10 @@ body {
     grid-column: 1;
     grid-row: 2;
 
-    height: 600px;
+    height: auto;
     width: 100%;
+
+    margin-top: 100px;
 
     display: flex;
     justify-content: center;
@@ -28,25 +30,37 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
 #webSources > h2 {
     font-size: 50px;
+    text-align: center;
 }
 
 #webSources > ul {
     font-size: 30px;
-    list-style: square;
+    list-style: none;
+}
+
+#webSources > ul > li > a {
+    color: black;
+}
+
+#webSources > ul > li > a:hover {
+    color: #24652f;
 }
 
 #img {
     grid-column: 1;
     grid-row: 3;
 
-    height: 600px;
+    height: auto;
     width: 100%;
+
+    margin-top: 50px;
+    margin-bottom: 100px;
 
     display: flex;
     justify-content: center;
@@ -61,15 +75,24 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
 #imgAttributions > h2 {
     font-size: 50px;
+    text-align: center;
 }
 
 #imgAttributions > ul {
     font-size: 30px;
-    list-style: square;
+    list-style: none;
+}
+
+#imgAttributions > ul > li > a {
+    color: black;
+}
+
+#imgAttributions > ul > li > a:hover {
+    color: #24652f;
 }
