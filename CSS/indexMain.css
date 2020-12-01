@@ -278,7 +278,7 @@ body {
     }
 
     #recyclingStat > p {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     #recyclingStat2 {
@@ -311,8 +311,9 @@ body {
     }
 
     #plasticStat > p {
-        font-size: 35px;
+        font-size: 30px;
         width: auto;
+        margin: 15px;
     }
 
     #plasticStat1 {
